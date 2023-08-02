@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&family=Roboto+Mono:wght@300;400&family=Roboto:wght@300&display=swap');
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;  
+}
+
+.container{
+background-image: url('');
+background-size: cover;
+    height: 100vh;
+    margin: -8px;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url('https://wallpaperaccess.com/full/640039.jpg');
+}
+.title{
+    text-align: center;
+    margin-top: -82px;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-shadow: 1px 3px 9px rgb(249, 249, 248);
+    transition: font-size 0.2s ease, font-family 0.3s ease, text-shadow 0.5s ease, cursor 0.5s ease;
+}
+.title:hover{
+    font-size: 40px;
+    font-family: sans-serif;
+   text-shadow: 1px 3px 25px rgb(225, 163, 5);
+   cursor: grab;
+}
+.image{
+    
+    text-align: center;
+    padding: 10px;
+    margin-top: -70px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+ 
+}
+.description{
+  color: white;
+  line-height: 40px;
+    text-align: center;
+    margin-top: -60px;
+    padding: 40px;
+    font-size: 25px;
+}
+.fa-chevron-right{
+    font-size: 50px;
+    color: rgb(166, 145, 9);
+   transition: color 0.6s ease, text-shadow 0.6s ease, font-size 0.6s ease;
+    padding-top: 30px;
+}
+.img{
+    border-radius: 40px;
+    box-shadow: 2px 10px 35px rgb(205, 16, 192);
+    height: 120px;  
+    transition: height 0.5s ease, box-shadow 0.6s ease, cursor 0.5s ease;
+}
+.img:hover{
+    height: 150px;
+    box-shadow: 1px 5px 12px white;
+    cursor: grab;
+}
+.fa-chevron-right:hover{
+    color: blue;
+    font-size: 70px;
+    text-shadow: 1px 8px 13px yellow;
+    cursor: crosshair;
+}
+.my-form{
+    height: 100vh;
+}
+.cont-name{
+   
+    padding: 30px;
+    width: 62%;
+    margin-left: 356px;
+    height: 100px;
+    display: flex;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    flex-direction: column;
+    border-bottom: 3px solid black;
+    
+}
+#display-name{
+ 
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: -17.5px;
+    height: 70px;
+}
+.btn{
+  
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+  
+    margin-left: 250px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: width 0.5s ease, height 0.5s ease, font-size 0.5s ease;
+}
+.btn:hover{
+    width: 78px;
+    height: 40px;
+    cursor: grab;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.btn-update-name{
+    background: rgb(156, 132, 0);
+    margin-top: 1px;
+    box-shadow: 1px 2px 15px rgb(156, 146, 3);
+    margin-left: -20px;
+    color: white;
+    
+}
+.btn-update-name:hover{
+    background-color: green;
+    box-shadow: 2px 5px 30px green;
+  
+    
+}
+.btn-clear{
+    margin-left: 20px;
+    margin-top: 0px;
+    background-color: rgb(90, 46, 46);
+    box-shadow: 1px 2px 13px red; 
+    color: white;
+}
+.cont-cont-name{
+    display: flex;
+    justify-content: flex-start;
+   
+    margin-top: -35px;
+ 
+}
+.name-textbox{
+
+    margin-top: 2px;
+    margin-bottom: 20px;
+    padding: 6px;
+    border-radius: 15px;
+    max-width: 700px;
+    min-width: 300px;
+    margin-left: 20px;
+    padding-top: 12px;
+   font-size: 17px;
+   opacity: 0.8;
+   font-weight: bold;
+   padding-bottom: 3px;
+   border: 0;
+   
+}
+.experience{
+ 
+    width: 65%;
+    margin-left: 310px;
+    margin-top: -1px;
+    border-top: 3px solid rgb(135, 4, 4);
+    background-color: beige;
+    border-radius: 9px;
+    transition: width 0.5s ease, font-size 0.5s ease, margin-left 0.5s ease;
+}
+.experience:hover{
+    width: 68%;
+    margin-left: 300px;
+    font-size: 18px;
+    background-color: blanchedalmond;
+}
+.practical-h2{
+    margin-top: 7px;
+    padding-left: 19px;
+    
+}
+.company{
+margin-bottom: -13px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+   
+}
+#display-company{
+ font-weight: bold;
+    height: 40px;
+    width: 400px;
+    padding:9px;
+    margin-top: -12px;
+    font-family: monospace;
+    font-size: 19px;
+}
+.dates{
+    height: 27px;
+   
+    font-family: monospace;
+    font-size: 12px;
+    margin-top: -6px;
+}
+.dated{
+    height: 27px;
+   
+    font-family: monospace;
+    font-size: 12px;
+    margin-top: -6px;
+}
+#date-start{
+    height: 29px;
+    margin-top: -6px;
+    margin-left: -12px;
+}
+#date-end{
+    margin-top: -6px;
+    height: 29px;
+    margin-left: -15px;
+}
+.btn-company{
+   font-weight: bold;
+    margin-top: -22px;
+    padding: 4px;
+    border-radius: 5px;
+    transition: padding-bottom 0.5s ease,margin-left 0.5s ease,width 0.5s ease, height 0.5s ease, font-size 0.5s ease;
+
+}
+.btn-company:hover{
+    width:130px;
+    height:30px;
+    font-size: 15px;
+    margin-left: 4px;
+    padding-bottom: 12px;
+}
+.compx{
+    margin-left: 12px;
+    padding: 12px;
+    border-radius: 9px;
+    width: 400px;
+}
+.roles-duties{
+    margin-top: 7px;
+    padding-left: 19px;
+    font-size: 14px;
+}
+.role1{
+    margin-left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+#roles{
+    margin-left: 100px;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.btn-role{
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: monospace;
+}
+.btn-role:hover{
+    width:120px;
+    height:40px;
+    font-size: 16px;
+    margin-left: 2px;
+    padding-bottom: 12px;
+}
