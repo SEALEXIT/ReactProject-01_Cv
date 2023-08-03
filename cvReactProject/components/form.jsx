@@ -1,13 +1,13 @@
-import Reac,{ useState} from 'react'
-import Namer from './Namer'
-import Experience from './Experience'
+import React,{ useState} from 'react'
+import General from './General'
+import GeneralDisplay from './GeneralDisplay'
 
 function Form() {
 
   return (
    <div className='my-form'>
-  <Namer/>
-  <Experience/>
+      <General/>
+    
    </div>
   )
 }
